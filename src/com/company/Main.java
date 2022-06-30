@@ -1,5 +1,5 @@
 /* TODO
-
+    Improve showAllCars method - if it is empty, should be shown adequate message.
 */
 
 
@@ -14,13 +14,13 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Hello and welcome to our car rental company. What is your wish?");
-        while (true){
+        while (true) {
 
             mainMenu();
         }
 
     }
-    public static void mainMenu(){
+    public static void mainMenu() {
             System.out.println("1. Show all cars");
             System.out.println("2. Add new car");
             System.out.println("3. Sell car");

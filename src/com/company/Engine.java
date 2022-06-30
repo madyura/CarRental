@@ -66,7 +66,10 @@ public class Engine {
         System.out.println("Show all cars menu");
         System.out.println();
         for (Map.Entry<Integer, Car> cars : carArray.entrySet()){
-
+            if (carArray.entrySet().size() == 0){
+                System.out.println("Our garage is empty!");
+                break;
+            }
             System.out.print(cars.getValue().getManufacturer() + ", ");
             System.out.print(cars.getValue().getModel() + ", ");
             System.out.print(cars.getValue().getColor() + ", ");
