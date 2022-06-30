@@ -1,16 +1,13 @@
 /* TODO
-    Узнать, как вывести в консоль объект Car.
-    Сейчас выводится только внутренняя кодировка объекта по типу: com.company.engine$Car@4e50df2e
+
 */
 
 
 package com.company;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
-import static com.company.engine.*;
+import static com.company.Engine.*;
 
 public class Main {
 
